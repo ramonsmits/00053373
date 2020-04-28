@@ -44,7 +44,7 @@ class Program
             Console.WriteLine(k.KeyChar);
             var count = int.Parse(k.KeyChar.ToString());
 
-            for (int i = 0; i < count; i++)
+            for (int i = 1; i <= count; i++)
             {
                 var options = new SendOptions();
                 options.SetDestination("Samples.SqlServer.SimpleReceiver");
